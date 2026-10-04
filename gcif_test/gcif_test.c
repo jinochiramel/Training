@@ -1,3 +1,8 @@
+/*
+GCIFA-D4 Test Tool
+
+Copy right reserved 2026 @ xxx.com
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -15,7 +20,7 @@
 #include "scsi_test.h"
 #include "logger.h"
 
-#define GCIF_TESTAPP_VER "1.0.0"
+#define GCIF_TESTAPP_VER "1.0.0-fw"
 
 #define HEADER_STR          "+=================================================+"
 #define BLANK_SPACE_STR     "|                                                 |"
