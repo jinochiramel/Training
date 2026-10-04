@@ -1,0 +1,247 @@
+[Thu Jul 22 11:51:23 2021] [gcif_test.c][line: 181] Warning: log folder already available in the system
+[Thu Jul 22 11:51:23 2021] [gcif_test.c][line: 184] Build time stamp: Tue Jul 20 14:07:30 2021
+[Thu Jul 22 11:51:23 2021] [gcif_test.c][line: 186] GCIF test application starting...
+[Thu Jul 22 11:51:23 2021] [hba_info_read.c][line: 813] Total number of host detected on the system = 1 
+[Thu Jul 22 11:51:23 2021] [hba_info_read.c][line: 841] scsi dev path: /dev/sg2
+[Thu Jul 22 11:51:25 2021] [gcif_test.c][line: 232] Display FC HBA Information - CLI option selected
+[Thu Jul 22 11:51:25 2021] [gcif_test.c][line: 257] GCIFA-D4 Scan and Verify - CLI option selected
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1147] rows_per_view = 16
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1148] das_channels = 786
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1149] views_per_tx = 8
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1150] flags = 1
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1151] views_per_scan = 79
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1152] views_per_sec = 1890
+[Thu Jul 22 11:51:25 2021] [scsi_test.c][line: 1153] view_starting_row = 0
+[Thu Jul 22 11:52:37 2021] [gcif_test.c][line: 276] Test repeat count = 1
+[Thu Jul 22 11:52:37 2021] [gcif_test.c][line: 288] generic scsi device path = /dev/sg2
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 765] the cmd execute status is 0
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 776] Test unit ready
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 719] the cmd execute status is 0
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 275] ----------------------------------------------
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 288] -----Standard INQUIRY Output-------
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 236] Peripheral Device Type: SPC-2 Processor device                                    
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 247] Peripheral Device Qualifier: 0 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 264] Non removable media 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 297] Ver:0 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 299] Response:2 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 301] Additional Length:250 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 303] Addr:3 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 305] Bus Info:96 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 460] vendor id:
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 466] TMRU,Inc
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 481] product id:
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 487] GCIFA-D3        
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 502] product ver:
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 508] 0000
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 338] GCIFA SCSI INQ Data Struct Code = 1 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 343] GCIFA SCSI INQ Data Size = 219 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 320] GCIFAD SW Version: 0.0.36
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 352] Software Type: 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 361] GCIFA Dx 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 370] SW download SCSI OPCode: 0x2 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 376] GCIF Channels per ROW= 0 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 380] GCIF View starting ROW: 0 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 384] GCIF ROWs per View: 0 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 388] GCIF No:Of ROW:20 
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 275] ----------------------------------------------
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 818] the cmd execute status is 0
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 829] GCIF startup success.
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 881] the cmd execute status is 0
+[Thu Jul 22 11:52:37 2021] [scsi_test.c][line: 891] GCIF start scan success
+[Thu Jul 22 11:52:39 2021] [scsi_test.c][line: 583] Waiting for get scan data...
+[Thu Jul 22 11:52:39 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:52:39 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:52:39 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:52:39 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:52:44 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:52:44 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:52:44 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:52:44 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:52:49 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:52:50 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:52:50 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:52:50 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:52:55 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:52:55 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:52:55 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:52:55 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:00 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:00 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:00 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:00 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:05 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:05 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:05 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:05 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:10 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:10 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:10 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:10 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:15 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:15 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:15 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:15 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:20 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:21 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:21 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:21 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:26 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:26 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:26 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:26 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:31 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:31 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:31 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:31 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:36 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:36 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:36 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:36 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:41 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:41 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:41 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:41 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:46 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:46 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:46 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:46 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:51 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:52 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:52 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:52 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:53:57 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:53:57 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:53:57 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:53:57 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:02 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:02 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:02 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:02 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:07 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:07 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:07 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:07 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:12 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:12 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:12 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:12 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:17 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:17 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:17 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:17 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:22 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:23 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:23 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:23 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:28 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:28 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:28 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:28 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:33 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:33 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:33 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:33 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:38 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:38 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:38 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:38 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:43 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:43 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:43 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:43 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:48 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:48 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:48 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:48 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:53 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:54 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:54 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:54 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:54:59 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:54:59 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:54:59 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:54:59 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:04 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:04 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:04 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:04 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:09 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:09 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:09 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:09 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:14 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:14 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:14 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:14 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:19 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:19 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:19 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:19 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:24 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:24 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:24 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:24 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:29 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:30 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:30 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:30 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:35 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:35 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:35 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:35 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:40 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:40 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:40 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:40 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:45 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:45 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:45 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:45 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:50 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:50 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:50 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:50 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:55:55 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:55:55 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:55:55 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:55:55 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:00 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:01 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:01 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:01 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:06 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:06 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:06 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:06 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:11 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:11 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:11 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:11 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:16 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:16 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:16 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:16 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:21 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:21 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:21 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:21 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:26 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:26 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:26 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:26 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:31 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:32 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:32 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:32 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:37 2021] [scsi_test.c][line: 589] Calling gcif_scsi_read10
+[Thu Jul 22 11:56:37 2021] [scsi_test.c][line: 667] scsi read status = 2
+[Thu Jul 22 11:56:37 2021] [scsi_test.c][line: 593] gcif_scsi_read10 status = 2
+[Thu Jul 22 11:56:37 2021] [scsi_test.c][line: 597] Going to sleep 5 Secs
+[Thu Jul 22 11:56:39 2021] [gcif_test.c][line: 149] Warning: ESC key pressed
+[Thu Jul 22 11:56:42 2021] [scsi_test.c][line: 610] Copying received data...of 0 bytes 
+[Thu Jul 22 11:56:42 2021] [scsi_test.c][line: 627] Free the buffer
+[Thu Jul 22 11:56:42 2021] [scsi_test.c][line: 897] Error: get scan data failed!!
+[Thu Jul 22 11:56:42 2021] [scsi_test.c][line: 1245] Error: Error in gcif start scanning!!
+[Thu Jul 22 11:56:42 2021] [gcif_test.c][line: 314] Error: gcif_scan_and_verify failed!! --->Test iteration 1: Failed
+[Thu Jul 22 11:56:42 2021] [gcif_test.c][line: 332] Warning: User terminated the test execution by pressing ESC key!!
+[Thu Jul 22 11:56:46 2021] [gcif_test.c][line: 226] Exiting from the GCIF test application
